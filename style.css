@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+p{
+  color:#999999;
+}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.text-shadow{
+  text-shadow: -3px -3px 6px #00000029;
+}
+
+.service{
+  @apply text-center px-20
+}
+
+.service h2{
+  @apply mb-4 roboto-bold text-2xl
+}
+
+.service img{
+  @apply mb-4
+}
+
+.service-two h2{
+  @apply mb-4 roboto-bold text-2xl
+}
+
+.number{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border:1px solid #47BCC8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#47BCC8;
+  font-weight: bold;
+  flex-shrink:0;
+}
+
+.mc-button{
+  background-color: #47BCC8;
+  display: inline-block;
+  padding:15px 40px;
+  color:white;
+  font-weight: bold;
+  border-radius: 30px;
+  
+}
+
+.banner-button{
+  background-color: #ffffff;
+  display: inline-block;
+  padding:15px 40px;
+  color:black;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size:20px;
+}
